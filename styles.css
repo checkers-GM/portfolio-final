@@ -107,6 +107,15 @@
          text-transform: uppercase;
      }
      
+     h2 {
+         color: white;
+         font-family: 'Raleway', sans-serif;
+         font-size: 30px;
+         font-weight: 800;
+         line-height: 36px;
+         margin: 0 0 24px;
+     }
+     
      #menu h1 {
          color: white;
      }
@@ -116,6 +125,7 @@
          margin: 5px 5px 5px 5px;
          font-family: 'Raleway', sans-serif;
          font-size: 22px;
+         border-bottom: blue;
      }
      
      #menu {
@@ -130,4 +140,13 @@
          padding: 50px;
          width: 100%;
          list-style-type: none;
+     }
+     
+     #hero {
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-around;
+         align-items: center;
+         height: 40vh;
+         background-color: rgba(17, 16, 16, 0.863)
      }
