@@ -150,3 +150,8 @@
          height: 40vh;
          background-color: rgba(17, 16, 16, 0.863)
      }
+     
+     #section1 {
+         display: flex;
+         background-color: rgba(17, 16, 16, 0.863);
+     }
